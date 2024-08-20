@@ -1,0 +1,99 @@
+body{
+    background-color: #333239;
+}
+main{
+    width: 350px;
+    background-color: #73717D;
+    padding: 5px;
+    border-radius: 15px;
+    margin: auto;
+    /*box-shadow: 5px 5px 2px grey;*/
+}
+
+/*Display______________________________________*/
+
+#calculatorDisplay{
+    width: 320px;
+    text-align: right;
+    background-color: white;
+    margin: 15px 0px 20px 15px;
+    border-radius: 10px;
+    color: #333239;
+
+}
+.insert{
+    font-size: 30px;
+    margin: 0%;
+    padding: 5px 5px;
+}
+.calculation{
+    margin: 0%;
+    padding: 5px 5px;
+}
+hr{
+   margin: 2px; 
+}
+/*_____________________________________________*/
+
+
+/*Buttons______________________________________*/
+
+#calculatorButtons{
+    width: 320px;
+    margin: 20px 0px 20px 15px;
+    height: 300px;
+}
+#buttonsMain{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.buttons{
+    margin: 2px;
+    background-color: white;
+    height: 60px;
+    border-radius: 10px;
+}
+.buttonsText{
+    margin: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: #333239;
+}
+/*____________________________________________*/
+
+
+/*Delete and Clear all _______________________*/
+#mainButtons{
+    display: grid;
+    width: 320px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.mainButtons{
+    text-align: center;
+    padding: 15px;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.orange{
+    background-color: orange;
+}
+.red{
+    background-color: #FF5D48;
+}
+
+.mainButtonsText{
+    margin: 0%;
+}
+/*_____________________________________________*/
+
+
+
+
+
+
+
+
+#timer{
+    border: solid pink 1px;
+}
