@@ -94,13 +94,10 @@ hr{
 }
 /*_____________________________________________*/
 
-
-
-
-
-
-
-
+/*Footer- Date and time________________________*/ 
 #timer{
-    border: solid pink 1px;
+    text-align: center;
+    color:#ddd;
+    font-size: 10px;
+    margin-top: 50px;
 }
