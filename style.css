@@ -7,7 +7,8 @@ main{
     padding: 5px;
     border-radius: 15px;
     margin: auto;
-    /*box-shadow: 5px 5px 2px grey;*/
+    box-shadow: 5px 5px 2px rgb(255, 255, 255, 0.2);
+    
 }
 
 /*Display______________________________________*/
@@ -51,11 +52,8 @@ hr{
 .buttons{
     margin: 2px;
     background-color: white;
-    height: 60px;
+    padding:15px 0px 15px 0px;
     border-radius: 10px;
-}
-.buttonsText{
-    margin: 15px;
     text-align: center;
     font-size: 25px;
     color: #333239;
@@ -63,6 +61,11 @@ hr{
 .operation{
     background-color: #97959D;
     box-shadow: 1px 1px 1px white;
+}
+.buttons-clicked{
+    background-color: #ddd;
+    transform: scale(0.95);
+    transition: background-color 0.2s, transform 0.2s;
 }
 
 /*____________________________________________*/
