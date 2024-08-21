@@ -22,15 +22,17 @@ main{
     color: #333239;
 
 }
-.insert{
+#insert{
     font-size: 30px;
     margin: 0%;
     padding: 5px 5px;
+    height: 30px;
 }
-.calculation{
+#calculation{
     margin: 0%;
     padding: 5px 5px;
     color: grey;
+    height: 20px;
 }
 hr{
    margin: 2px; 
