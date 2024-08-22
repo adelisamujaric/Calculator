@@ -1,1 +1,4 @@
 # Calculator
+Hi there,
+
+This is another calculator I created, this time using HTML, CSS, and JavaScript technologies. The calculator is simple and allows users to input numbers and perform basic mathematical operations such as addition, subtraction, multiplication, and division. The display has two functions where, above the line, it shows the numbers involved in the operation, while below the line, it displays the entire input sequence with operations. The "=" button shows the result on both sides of the display. The "Delete" button removes the last entered number, while "Clear All" removes all previous actions.
