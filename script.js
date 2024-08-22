@@ -67,6 +67,13 @@ function clickOnButton(){
 
             }
 
+            if(buttonAdd === "Clear all"){
+                insertNumber.textContent = "0";
+                calculation.textContent = "0";
+                previousNumber = null;
+                currentOperator = null;
+            }
+
          });  
 
         
@@ -90,4 +97,39 @@ function clickOnButton(){
 }
 clickOnButton();
 
+function clearFields(){
+    const buttons = document.querySelectorAll(".mainButtons");
+    const insertNumber = document.getElementById("insert");
+    const calculation = document.getElementById("calculation");
+
+    
+        buttons.forEach(button =>{
+            button.addEventListener('click', function(){
+                this.classList.add("mainButtons-clicked");
+                setTimeout(()=>{
+                    this.classList.remove("mainButtons-clicked");
+                    },200);
+
+                    const clickedButton = this.textContent.trim();
+
+                    if(clickedButton === "Clear all"){
+                        insertNumber.textContent = "0";
+                        calculation.textContent = "0";
+                    }
+
+                    if(clickedButton === "Delete"){
+                        let currentText = insertNumber.textContent;
+                        if(currentText.length>1){
+                            insertNumber.textContent = currentText.slice(0,-1);
+                            calculation.textContent = currentText.slice(0, -1);
+                        }else{
+                            insertNumber.textContent = "0";
+                            calculation.textContent = "0";
+                        }
+                    }
+            })
+        })
+
+}
+clearFields();
 

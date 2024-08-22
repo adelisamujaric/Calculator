@@ -69,6 +69,11 @@ hr{
     transform: scale(0.95);
     transition: background-color 0.2s, transform 0.2s;
 }
+.mainButtons-clicked{
+    opacity: 70%;
+    transform: scale(0.95);
+    transition: transform 0.2s;
+}
 
 /*____________________________________________*/
 
