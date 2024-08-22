@@ -111,3 +111,96 @@ hr{
     font-size: 10px;
     margin-top: 50px;
 }
+
+
+/*RESPONSIVE DESIGN*/
+
+@media(max-width: 768px) {
+
+    body{
+        background-color: #73717D;
+    }
+    main{
+        width: auto;
+        background-color: #73717D;
+        padding: 5px;
+        border-radius: 15px;
+        box-shadow: none;  
+        margin: 0%;
+    }
+
+    #calculatorDisplay{
+        width: auto;
+        text-align: right;
+        background-color: white;
+        margin: 15px 0px 20px 0px;
+        border-radius: 10px;
+        color: #333239;
+    }
+
+    #insert{
+        font-size: 50px;
+        margin: 0%;
+        padding: 10px 10px;
+        height: 60px;
+    }
+    #calculation{
+        margin: 0%;
+        padding: 10px 10px;
+        color: grey;
+        height: 40px;
+        font-size: 25px;
+    }
+
+    #calculatorButtons{
+        width: auto;
+        margin: 20px 0px 20px 0px;
+        height: auto;
+    }
+
+    .buttons{
+        width: auto;
+        margin: 3px;
+        background-color: white;
+        padding:25px 0px 15px 0px;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 40px;
+        color: #333239;
+        height: 60px;
+    }
+
+    #mainButtons{
+        display: grid;
+        width: auto;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mainButtons{
+        text-align: center;
+        padding: 15px;
+        margin: 3px;
+        margin-top: 20px;
+        border-radius: 10px;
+        color: #333239;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .mainButtonsText{
+        margin: 0%;
+        padding-top: 13px;
+    }
+
+    #timer{
+        text-align: center;
+        color:#ddd;
+        font-size: 15px;
+        margin-top: 100px;
+    }
+
+
+
+
+
+}
